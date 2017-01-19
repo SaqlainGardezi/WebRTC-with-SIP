@@ -2,10 +2,18 @@
 <html>
 <head>
 	<title></title>
-	<script type="text/javascript" src="javascript.js"></script>
 </head>
 <body>
-	<video id="vid" autoplay="true"></video>
-	<button id="btn" onclick="start()"> Start camera</button>
+	
+<video id="vid1" autoplay="true" muted="true"></video>
+<video id="vid2" autoplay="true"></video>
+<button id="btn1" onclick="start()">Start</button>
+<button id="btn2" onclick="call()">Call</button>
+<button id="btn3" onclick="hangup()">Hang Up</button>
+<xtextarea id="ta1"></textarea>
+<xtextarea id="ta2"></textarea>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/adapterjs/0.14.0/adapter.min.js"></script>
+
+	<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
